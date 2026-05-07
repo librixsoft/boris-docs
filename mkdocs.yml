@@ -52,7 +52,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.tabbed
@@ -60,6 +59,8 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+  - codehilite:
+      css_class: highlight
 
 # Plugins
 plugins:
