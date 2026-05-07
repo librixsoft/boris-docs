@@ -30,8 +30,12 @@
 
 /* Header */
 .md-header {
-  background-color: var(--red-hat-black) !important;
-  color: var(--red-hat-white) !important;
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.md-header__inner {
+  background-color: #000000 !important;
 }
 
 .md-header__title {
