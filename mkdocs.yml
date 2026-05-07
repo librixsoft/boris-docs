@@ -1,0 +1,77 @@
+site_name: Boris AI Documentation
+site_description: Documentación de Boris AI
+site_author: Your Name
+site_url: https://librixsoft.github.io/boris-docs
+
+# Repository
+repo_name: librixsoft/boris-docs
+repo_url: https://github.com/librixsoft/boris-docs
+
+# Theme
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+# Navigation
+nav:
+  - Inicio: index.md
+  - Guía Rápida:
+    - Instalación: guide/installation.md
+    - Configuración: guide/configuration.md
+    - Primeros Pasos: guide/getting-started.md
+  - Documentación:
+    - API: documentation/api.md
+    - Ejemplos: documentation/examples.md
+    - Referencia: documentation/reference.md
+  - Acerca de:
+    - Proyecto: about/project.md
+    - Contribuir: about/contributing.md
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search:
+      lang: es
+  - minify:
+      minify_html: true
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Extra JavaScript
+extra_javascript:
+  - javascripts/extra.js
