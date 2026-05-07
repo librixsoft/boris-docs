@@ -137,12 +137,30 @@ a:hover {
 
 /* Tabs */
 .md-typeset .tabbed-labels > label {
-  color: #666666 !important;
+  color: #FFFFFF !important;
 }
 
 .md-typeset .tabbed-labels > label.active {
-  color: #1976D2 !important;
+  color: #FFFFFF !important;
   border-bottom: 2px solid #1976D2 !important;
+}
+
+/* Navigation tabs list */
+.md-tabs__list,
+.md-tabs__item,
+.md-tabs__link {
+  color: #FFFFFF !important;
+}
+
+.md-tabs__item:hover .md-tabs__link {
+  color: #FFFFFF !important;
+}
+
+/* Grid items */
+.md-grid-item,
+.md-grid-item__title,
+.md-grid-item__excerpt {
+  color: #FFFFFF !important;
 }
 
 /* Focus styles */
