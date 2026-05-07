@@ -44,10 +44,7 @@ nav:
     - API: documentation/api.md
     - Examples: documentation/examples.md
     - Reference: documentation/reference.md
-  - About:
-    - Project: about/project.md
-    - Contributing: about/contributing.md
-
+  
 # Extensions
 markdown_extensions:
   - admonition
