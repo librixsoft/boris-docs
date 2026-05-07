@@ -1,55 +1,55 @@
-# Bienvenido a Boris AI Documentation
+# Welcome to Boris AI Documentation
 
-!!! info "Proyecto en Desarrollo"
-    Esta es una página de prueba para la documentación de Boris AI utilizando MkDocs y GitHub Pages.
+!!! info "Project in Development"
+    This is a test page for Boris AI documentation using MkDocs and GitHub Pages.
 
-## 🚀 ¿Qué es Boris AI?
+## 🚀 What is Boris AI?
 
-Boris AI es un sistema avanzado de inteligencia artificial diseñado para ayudar en diversas tareas de procesamiento de lenguaje natural y análisis de datos.
+Boris AI is an advanced artificial intelligence system designed to help with various natural language processing and data analysis tasks.
 
-## 📋 Características Principales
+## 📋 Key Features
 
-- **Procesamiento de Lenguaje Natural**: Comprensión y generación de texto en múltiples idiomas
-- **Análisis de Datos**: Herramientas avanzadas para análisis y visualización
-- **API RESTful**: Integración sencilla con aplicaciones existentes
-- **Machine Learning**: Modelos personalizables para diferentes casos de uso
+- **Natural Language Processing**: Understanding and generation of text in multiple languages
+- **Data Analysis**: Advanced tools for analysis and visualization
+- **RESTful API**: Easy integration with existing applications
+- **Machine Learning**: Customizable models for different use cases
 
-## 🛠️ Comienzo Rápido
+## 🛠️ Quick Start
 
-!!! tip "Primeros Pasos"
-    Si es tu primera vez usando Boris AI, te recomendamos comenzar con nuestra [Guía de Instalación](guide/installation.md).
+!!! tip "First Steps"
+    If this is your first time using Boris AI, we recommend starting with our [Installation Guide](guide/installation.md).
 
-### Requisitos Previos
+### Prerequisites
 
-- Python 3.8 o superior
-- pip (gestor de paquetes de Python)
+- Python 3.8 or higher
+- pip (Python package manager)
 - Git
 
-### Instalación Básica
+### Basic Installation
 
 ```bash
 pip install boris-ai
 ```
 
-## 📚 Documentación
+## 📚 Documentation
 
-!!! example "Explora la Documentación"
-    - [Guía de Instalación](guide/installation.md) - Cómo instalar Boris AI
-    - [Configuración](guide/configuration.md) - Configura tu entorno
-    - [API Reference](documentation/api.md) - Documentación completa de la API
-    - [Ejemplos](documentation/examples.md) - Casos de uso prácticos
+!!! example "Explore Documentation"
+    - [Installation Guide](guide/installation.md) - How to install Boris AI
+    - [Configuration](guide/configuration.md) - Set up your environment
+    - [API Reference](documentation/api.md) - Complete API documentation
+    - [Examples](documentation/examples.md) - Practical use cases
 
-## 🤝 Contribuir
+## 🤝 Contributing
 
-¿Interesado en contribuir al proyecto? Revisa nuestra [guía de contribución](about/contributing.md).
+Interested in contributing to the project? Check our [contributing guide](about/contributing.md).
 
-## 📞 Soporte
+## 📞 Support
 
-- **GitHub Issues**: Reporta problemas y solicita funciones
-- **Discussions**: Participa en conversaciones comunitarias
-- **Wiki**: Documentación adicional y tutoriales
+- **GitHub Issues**: Report bugs and request features
+- **Discussions**: Participate in community conversations
+- **Wiki**: Additional documentation and tutorials
 
 ---
 
-!!! note "Última Actualización"
-    Esta documentación se actualiza continuamente. La última versión fue compilada el {{ git_build_date }}.
+!!! note "Last Updated"
+    This documentation is continuously updated. The latest version was built on {{ git_build_date }}.

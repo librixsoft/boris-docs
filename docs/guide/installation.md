@@ -1,56 +1,56 @@
-# Instalación
+# Installation
 
-Esta guía te ayudará a instalar Boris AI en tu sistema.
+This guide will help you install Boris AI on your system.
 
-## Requisitos del Sistema
+## System Requirements
 
-- **Python**: 3.8 o superior
-- **Sistema Operativo**: Windows 10+, macOS 10.14+, Ubuntu 18.04+
-- **Memoria RAM**: Mínimo 4GB, recomendado 8GB
-- **Espacio en Disco**: 1GB de espacio libre
+- **Python**: 3.8 or higher
+- **Operating System**: Windows 10+, macOS 10.14+, Ubuntu 18.04+
+- **RAM Memory**: Minimum 4GB, recommended 8GB
+- **Disk Space**: 1GB of free space
 
-## Instalación con pip
+## Installation with pip
 
-La forma más sencilla de instalar Boris AI es usando pip:
+The easiest way to install Boris AI is using pip:
 
 ```bash
 pip install boris-ai
 ```
 
-!!! tip "Entorno Virtual"
-    Se recomienda usar un entorno virtual para evitar conflictos con otros paquetes:
+!!! tip "Virtual Environment"
+    We recommend using a virtual environment to avoid conflicts with other packages:
     ```bash
     python -m venv boris-env
-    source boris-env/bin/activate  # En Windows: boris-env\Scripts\activate
+    source boris-env/bin/activate  # On Windows: boris-env\Scripts\activate
     pip install boris-ai
     ```
 
-## Verificación de Instalación
+## Installation Verification
 
-Para verificar que la instalación fue exitosa:
+To verify the installation was successful:
 
 ```python
 import boris_ai
 print(boris_ai.__version__)
 ```
 
-!!! success "Instalación Exitosa"
-    Si ves el número de versión sin errores, ¡la instalación fue exitosa!
+!!! success "Successful Installation"
+    If you see the version number without errors, the installation was successful!
 
-## Problemas Comunes
+## Common Issues
 
-### Error: "Python no encontrado"
+### Error: "Python not found"
 
-Asegúrate de tener Python 3.8+ instalado y en el PATH del sistema.
+Make sure you have Python 3.8+ installed and in your system PATH.
 
-### Error: "Permiso denegado"
+### Error: "Permission denied"
 
-En macOS/Linux, usa `pip install --user boris-ai` o ejecuta con sudo.
+On macOS/Linux, use `pip install --user boris-ai` or run with sudo.
 
-### Error: "Versión incompatible"
+### Error: "Incompatible version"
 
-Actualiza pip: `pip install --upgrade pip`
+Update pip: `pip install --upgrade pip`
 
-## Siguiente Paso
+## Next Step
 
-Una vez instalado, continúa con la [Configuración](configuration.md).
+Once installed, continue with [Configuration](configuration.md).

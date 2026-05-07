@@ -1,8 +1,8 @@
-# Ejemplos
+# Examples
 
-Casos de uso prácticos y ejemplos avanzados de Boris AI.
+Practical use cases and advanced examples of Boris AI.
 
-## Chatbot Simple
+## Simple Chatbot
 
 ```python
 from boris_ai import BorisAI
@@ -13,25 +13,25 @@ class SimpleChatbot:
         self.context = []
     
     def chat(self, message):
-        self.context.append(f"Usuario: {message}")
+        self.context.append(f"User: {message}")
         
-        prompt = "\\n".join(self.context[-5:]) + "\\nAsistente:"
+        prompt = "\n".join(self.context[-5:]) + "\nAssistant:"
         response = self.client.generate(prompt)
         
-        self.context.append(f"Asistente: {response.text}")
+        self.context.append(f"Assistant: {response.text}")
         return response.text
 
-# Uso
+# Usage
 bot = SimpleChatbot()
 while True:
-    user_input = input("Tú: ")
-    if user_input.lower() == 'salir':
+    user_input = input("You: ")
+    if user_input.lower() == 'exit':
         break
     response = bot.chat(user_input)
     print(f"Bot: {response}")
 ```
 
-## Análisis de Sentimiento
+## Sentiment Analysis
 
 ```python
 from boris_ai import BorisAI
@@ -46,13 +46,13 @@ def analyze_sentiment(text):
         'confidence': sentiment.confidence
     }
 
-# Uso
-result = analyze_sentiment("Me encanta este producto!")
-print(f"Sentimiento: {result['sentiment']}")
-print(f"Confianza: {result['confidence']}")
+# Usage
+result = analyze_sentiment("I love this product!")
+print(f"Sentiment: {result['sentiment']}")
+print(f"Confidence: {result['confidence']}")
 ```
 
-## Generación de Texto
+## Text Generation
 
 ```python
 from boris_ai import BorisAI
@@ -62,12 +62,12 @@ def generate_text(prompt, max_tokens=100):
     response = client.generate(prompt, max_tokens=max_tokens)
     return response.text
 
-# Uso
-text = generate_text("Escribe un poema sobre la tecnología")
+# Usage
+text = generate_text("Write a poem about technology")
 print(text)
 ```
 
-## Clasificación Simple
+## Simple Classification
 
 ```python
 from boris_ai import BorisAI
@@ -80,8 +80,7 @@ def classify_text(text, categories):
         'confidence': result.confidence
     }
 
-# Uso
-categories = ['positivo', 'negativo', 'neutro']
-result = classify_text("El servicio fue excelente", categories)
-print(f"Categoría: {result['category']}")
-```
+# Usage
+categories = ['positive', 'negative', 'neutral']
+result = classify_text("The service was excellent", categories)
+print(f"Category: {result['category']}")

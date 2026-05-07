@@ -1,25 +1,25 @@
-# Contribuir
+# Contributing
 
-Cómo contribuir al proyecto Boris AI.
+How to contribute to the Boris AI project.
 
-## Cómo Empezar
+## Getting Started
 
-1. Fork el repositorio
-2. Crea una rama: `git checkout -b feature/tu-feature`
-3. Haz tus cambios
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/your-feature`
+3. Make your changes
 4. Commit: `git commit -m 'Add feature'`
-5. Push: `git push origin feature/tu-feature`
+5. Push: `git push origin feature/your-feature`
 6. Pull Request
 
-## Guía de Estilo
+## Style Guide
 
 - Python: PEP 8
-- Comentarios en español
-- Tests obligatorios
+- English comments
+- Tests required
 
-## Reportar Issues
+## Reporting Issues
 
-Usa GitHub Issues con:
-- Título descriptivo
-- Pasos para reproducir
-- Entorno detallado
+Use GitHub Issues with:
+- Descriptive title
+- Steps to reproduce
+- Detailed environment

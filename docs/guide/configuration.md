@@ -1,68 +1,68 @@
-# Configuración
+# Configuration
 
-Configura Boris AI según tus necesidades específicas.
+Configure Boris AI according to your specific needs.
 
-## Archivo de Configuración
+## Configuration File
 
-Boris AI utiliza un archivo `config.yaml` para la configuración principal:
+Boris AI uses a `config.yaml` file for main configuration:
 
 ```yaml
 # config.yaml
 boris_ai:
-  modelo: "default"
-  idioma: "es"
+  model: "default"
+  language: "en"
   max_tokens: 2048
-  temperatura: 0.7
+  temperature: 0.7
   
 api:
   host: "localhost"
-  puerto: 8000
+  port: 8000
   ssl: false
   
 logging:
-  nivel: "INFO"
-  archivo: "boris.log"
+  level: "INFO"
+  file: "boris.log"
 ```
 
-## Variables de Entorno
+## Environment Variables
 
-También puedes configurar Boris AI usando variables de entorno:
+You can also configure Boris AI using environment variables:
 
 ```bash
 export BORIS_AI_MODEL="advanced"
-export BORIS_API_KEY="tu-api-key"
+export BORIS_API_KEY="your-api-key"
 export BORIS_LOG_LEVEL="DEBUG"
 ```
 
-## Configuración Avanzada
+## Advanced Configuration
 
-### Modelos Disponibles
+### Available Models
 
-- **default**: Modelo estándar para uso general
-- **advanced**: Modelo con mayor capacidad
-- **fast**: Modelo optimizado para velocidad
-- **custom**: Modelo personalizado
+- **default**: Standard model for general use
+- **advanced**: Model with greater capacity
+- **fast**: Model optimized for speed
+- **custom**: Custom trained model
 
-### Opciones de Rendimiento
+### Performance Options
 
 ```yaml
-rendimiento:
-  hilos: 4
-  memoria_cache: "2GB"
+performance:
+  threads: 4
+  memory_cache: "2GB"
   batch_size: 32
 ```
 
-## Validación de Configuración
+## Configuration Validation
 
-Usa el comando de validación:
+Use the validation command:
 
 ```bash
 boris-cli validate-config
 ```
 
-!!! warning "Configuración Inválida"
-    Si la configuración es inválida, Boris AI mostrará errores específicos para corregirlos.
+!!! warning "Invalid Configuration"
+    If configuration is invalid, Boris AI will show specific errors to correct them.
 
-## Siguiente Paso
+## Next Step
 
-Una vez configurado, revisa los [Primeros Pasos](getting-started.md).
+Once configured, check [Getting Started](getting-started.md).

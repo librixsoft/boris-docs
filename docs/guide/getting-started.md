@@ -1,45 +1,45 @@
-# Primeros Pasos
+# Getting Started
 
-Comienza a usar Boris AI con estos ejemplos básicos.
+Start using Boris AI with these basic examples.
 
-## Hola Mundo
+## Hello World
 
-Tu primer programa con Boris AI:
+Your first program with Boris AI:
 
 ```python
 from boris_ai import BorisAI
 
-# Inicializar el cliente
+# Initialize the client
 client = BorisAI()
 
-# Generar texto
-response = client.generate("Hola, ¿cómo estás?")
+# Generate text
+response = client.generate("Hello, how are you?")
 print(response.text)
 ```
 
-## Análisis de Sentimiento
+## Sentiment Analysis
 
-Analiza el sentimiento de un texto:
-
-```python
-sentiment = client.analyze_sentiment("Me encanta este producto!")
-print(f"Sentimiento: {sentiment.label}")
-print(f"Confianza: {sentiment.score}")
-```
-
-## Clasificación de Texto
-
-Clasifica texto en categorías predefinidas:
+Analyze the sentiment of a text:
 
 ```python
-categories = ["positivo", "negativo", "neutro"]
-result = client.classify("El servicio fue excelente", categories)
-print(f"Categoría: {result.category}")
+sentiment = client.analyze_sentiment("I love this product!")
+print(f"Sentiment: {sentiment.label}")
+print(f"Confidence: {sentiment.score}")
 ```
 
-## Traducción
+## Text Classification
 
-Traduce texto entre idiomas:
+Classify text into predefined categories:
+
+```python
+categories = ["positive", "negative", "neutral"]
+result = client.classify("The service was excellent", categories)
+print(f"Category: {result.category}")
+```
+
+## Translation
+
+Translate text between languages:
 
 ```python
 translation = client.translate(
@@ -47,30 +47,30 @@ translation = client.translate(
     source_lang="en",
     target_lang="es"
 )
-print(f"Traducción: {translation.text}")
+print(f"Translation: {translation.text}")
 ```
 
-## Procesamiento por Lotes
+## Batch Processing
 
-Procesa múltiples textos eficientemente:
+Process multiple texts efficiently:
 
 ```python
 texts = [
-    "Texto 1 para procesar",
-    "Texto 2 para procesar",
-    "Texto 3 para procesar"
+    "Text 1 to process",
+    "Text 2 to process",
+    "Text 3 to process"
 ]
 
 results = client.batch_process(texts)
 for i, result in enumerate(results):
-    print(f"Texto {i+1}: {result}")
+    print(f"Text {i+1}: {result}")
 ```
 
-!!! tip "Mejores Prácticas"
-    - Usa procesamiento por lotes para múltiples textos
-    - Maneja excepciones apropiadamente
-    - Cachea resultados cuando sea posible
+!!! tip "Best Practices"
+    - Use batch processing for multiple texts
+    - Handle exceptions appropriately
+    - Cache results when possible
 
-## Siguiente Paso
+## Next Step
 
-Explora la [API Reference](../documentation/api.md) para ver todas las funcionalidades disponibles.
+Explore the [API Reference](../documentation/api.md) to see all available functionalities.

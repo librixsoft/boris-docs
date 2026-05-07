@@ -1,38 +1,38 @@
 # Boris AI Documentation
 
-Sitio de documentación construido con MkDocs y GitHub Pages.
+Documentation site built with MkDocs and GitHub Pages.
 
-## 🚀 Inicio Rápido
+## 🚀 Quick Start
 
 ```bash
-# Instalar dependencias
+# Install dependencies
 pip install -r requirements.txt
 
-# Servidor local
+# Local server
 mkdocs serve
 
-# Construir para producción
+# Build for production
 mkdocs build
 
-# Desplegar a GitHub Pages
+# Deploy to GitHub Pages
 mkdocs gh-deploy
 ```
 
-## 📁 Estructura
+## 📁 Structure
 
 ```
 boris-docs/
-├── mkdocs.yml          # Configuración de MkDocs
-├── requirements.txt    # Dependencias Python
-├── docs/               # Contenido de la documentación
-│   ├── index.md       # Página principal
-│   ├── guide/         # Guías de usuario
-│   ├── documentation/ # Documentación técnica
-│   └── about/         # Información del proyecto
-└── README.md          # Este archivo
+├── mkdocs.yml          # MkDocs configuration
+├── requirements.txt    # Python dependencies
+├── docs/               # Documentation content
+│   ├── index.md       # Main page
+│   ├── guide/         # User guides
+│   ├── documentation/ # Technical documentation
+│   └── about/         # Project information
+└── README.md          # This file
 ```
 
 ## 🌐 GitHub Pages
 
-El sitio se despliega automáticamente en:
+The site is automatically deployed at:
 https://librixsoft.github.io/boris-docs

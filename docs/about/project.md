@@ -1,28 +1,28 @@
-# Proyecto
+# Project
 
-Información sobre el proyecto Boris AI.
+Information about the Boris AI project.
 
-## Misión
+## Mission
 
-Desarrollar una plataforma de inteligencia artificial accesible y potente para desarrolladores y empresas.
+To develop an accessible and powerful artificial intelligence platform for developers and businesses.
 
-## Visión
+## Vision
 
-Convertirnos en la solución líder en procesamiento de lenguaje natural en español.
+To become the leading solution in natural language processing in English and multiple languages.
 
-## Historia
+## History
 
-- **2024**: Inicio del proyecto
-- **2025**: Primera versión estable
-- **2026**: Expansión internacional
+- **2024**: Project started
+- **2025**: First stable version
+- **2026**: International expansion
 
-## Equipo
+## Team
 
-- **Desarrollo**: 5 ingenieros
-- **Investigación**: 3 científicos
-- **Producto**: 2 managers
+- **Development**: 5 engineers
+- **Research**: 3 scientists
+- **Product**: 2 managers
 
-## Tecnologías
+## Technologies
 
 - Python 3.8+
 - PyTorch
