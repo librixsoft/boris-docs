@@ -13,9 +13,11 @@ How to contribute to the Boris AI project.
 
 ## Style Guide
 
-- Python: PEP 8
-- English comments
-- Tests required
+- Java: Follow Java 21 conventions and best practices
+- English comments and documentation
+- Tests required for new features
+- Use proper exception handling
+- Follow naming conventions (camelCase for variables, PascalCase for classes)
 
 ## Reporting Issues
 
