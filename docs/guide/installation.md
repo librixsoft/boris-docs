@@ -4,52 +4,70 @@ This guide will help you install Boris AI on your system.
 
 ## System Requirements
 
-- **Python**: 3.8 or higher
+- **Java**: 21 or higher (OpenJDK or Oracle JDK)
 - **Operating System**: Windows 10+, macOS 10.14+, Ubuntu 18.04+
 - **RAM Memory**: Minimum 4GB, recommended 8GB
 - **Disk Space**: 1GB of free space
 
-## Installation with pip
+## Installation
 
-The easiest way to install Boris AI is using pip:
+### Documentation Setup
+
+To set up the Boris AI documentation locally:
 
 ```bash
-pip install boris-ai
+# Clone the repository
+git clone https://github.com/librixsoft/boris-docs.git
+cd boris-docs
+
+# Install documentation dependencies
+./venv/bin/pip install -r requirements.txt
+
+# Start local documentation server
+./venv/bin/mkdocs serve
 ```
 
-!!! tip "Virtual Environment"
-    We recommend using a virtual environment to avoid conflicts with other packages:
-    ```bash
-    python -m venv boris-env
-    source boris-env/bin/activate  # On Windows: boris-env\Scripts\activate
-    pip install boris-ai
-    ```
+!!! tip "Access Documentation"
+    Open your browser and navigate to http://127.0.0.1:8000 to view the documentation locally.
 
 ## Installation Verification
 
-To verify the installation was successful:
+To verify the documentation setup was successful:
 
-```python
-import boris_ai
-print(boris_ai.__version__)
+```bash
+# Check if MkDocs is working
+./venv/bin/mkdocs --version
+
+# Build the documentation
+./venv/bin/mkdocs build
 ```
 
 !!! success "Successful Installation"
-    If you see the version number without errors, the installation was successful!
+    If the documentation builds without errors and you can access it locally, the setup was successful!
 
 ## Common Issues
 
-### Error: "Python not found"
+### Error: "Java not found"
 
-Make sure you have Python 3.8+ installed and in your system PATH.
+Make sure you have Java 21+ installed and in your system PATH:
+```bash
+java -version
+javac -version
+```
 
 ### Error: "Permission denied"
 
-On macOS/Linux, use `pip install --user boris-ai` or run with sudo.
+On macOS/Linux, make sure the virtual environment has proper permissions:
+```bash
+chmod +x ./venv/bin/*
+```
 
-### Error: "Incompatible version"
+### Error: "MkDocs not found"
 
-Update pip: `pip install --upgrade pip`
+Install the dependencies:
+```bash
+./venv/bin/pip install -r requirements.txt
+```
 
 ## Next Step
 
