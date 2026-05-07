@@ -47,6 +47,63 @@ header.md-header,
   color: #FFFFFF !important;
 }
 
+/* Navigation tabs (sub-header) */
+.md-tabs,
+.md-tabs__item,
+.md-tabs__link {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.md-tabs__item:hover .md-tabs__link {
+  color: #FFFFFF !important;
+  background-color: #000000 !important;
+}
+
+/* Search bar */
+.md-search__form,
+.md-search__input,
+.md-search__output {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #333333 !important;
+}
+
+.md-search__input::placeholder {
+  color: #CCCCCC !important;
+}
+
+/* Search icon */
+.md-search__icon,
+.md-search__icon svg {
+  fill: #FFFFFF !important;
+  color: #FFFFFF !important;
+}
+
+/* Header icons */
+.md-header__button,
+.md-header__button svg,
+.md-header__option,
+.md-header__option svg {
+  color: #FFFFFF !important;
+  fill: #FFFFFF !important;
+}
+
+/* Repository link */
+.md-header__source,
+.md-header__source svg {
+  color: #FFFFFF !important;
+  fill: #FFFFFF !important;
+}
+
+/* All header text elements */
+.md-header__title,
+.md-header__topic,
+.md-header__button,
+.md-tabs__link {
+  color: #FFFFFF !important;
+}
+
 .md-header__title {
   color: var(--red-hat-white) !important;
   font-weight: 600;
