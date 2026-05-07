@@ -49,7 +49,7 @@ cd boris-docs
 
 ## 🤝 Contributing
 
-Interested in contributing to the project? Check our [contributing guide](about/contributing.md).
+Interested in contributing to the project? Check our GitHub repository for contribution guidelines.
 
 ## 📞 Support
 
