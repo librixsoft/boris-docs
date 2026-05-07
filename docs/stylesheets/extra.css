@@ -320,6 +320,36 @@ a:hover {
   color: var(--red-hat-white) !important;
 }
 
+/* Dark mode - Admonition containers */
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+  background-color: #2D2D2D !important;
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition-title {
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.info {
+  background-color: #1E3A8A !important;
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.tip {
+  background-color: #14532D !important;
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning {
+  background-color: #713F12 !important;
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.success {
+  background-color: #14532D !important;
+  color: #FFFFFF !important;
+}
+
 /* Palette toggle */
 .md-typeset .md-content__icon {
   color: var(--red-hat-red) !important;
