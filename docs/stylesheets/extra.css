@@ -1,0 +1,281 @@
+/* Red Hat Linux inspired theme */
+
+:root {
+  --red-hat-red: #EE0000;
+  --red-hat-dark-red: #CC0000;
+  --red-hat-light-red: #FF6B6B;
+  --red-hat-black: #000000;
+  --red-hat-dark-gray: #2C2C2C;
+  --red-hat-medium-gray: #5C5C5C;
+  --red-hat-light-gray: #8C8C8C;
+  --red-hat-white: #FFFFFF;
+  --red-hat-cream: #FFF8DC;
+  --red-hat-light-cream: #FFFACD;
+  --red-hat-bg: #FAFAFA;
+}
+
+/* Primary color scheme */
+.md-primary {
+  background-color: var(--red-hat-red) !important;
+}
+
+.md-primary--conversion {
+  background-color: var(--red-hat-dark-red) !important;
+}
+
+/* Accent colors */
+.md-accent {
+  background-color: var(--red-hat-red) !important;
+}
+
+/* Header */
+.md-header {
+  background-color: var(--red-hat-red) !important;
+  color: var(--red-hat-white) !important;
+}
+
+.md-header__title {
+  color: var(--red-hat-white) !important;
+  font-weight: 600;
+}
+
+.md-header__topic {
+  color: var(--red-hat-white) !important;
+}
+
+/* Navigation */
+.md-nav__item--active > .md-nav__link {
+  color: var(--red-hat-red) !important;
+  font-weight: 600;
+}
+
+.md-nav__link:hover {
+  color: var(--red-hat-dark-red) !important;
+}
+
+.md-nav__link--active {
+  color: var(--red-hat-red) !important;
+}
+
+/* Sidebar */
+.md-sidebar {
+  background-color: var(--red-hat-white) !important;
+}
+
+.md-nav--secondary .md-nav__link {
+  color: var(--red-hat-medium-gray) !important;
+}
+
+.md-nav--secondary .md-nav__link--active {
+  color: var(--red-hat-red) !important;
+}
+
+/* Content area */
+.md-content {
+  background-color: var(--red-hat-cream) !important;
+}
+
+.md-content__inner {
+  background-color: var(--red-hat-cream) !important;
+  color: var(--red-hat-black) !important;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--red-hat-black) !important;
+}
+
+h1 {
+  border-bottom: 3px solid var(--red-hat-red) !important;
+  padding-bottom: 0.5rem !important;
+}
+
+h2 {
+  border-bottom: 2px solid var(--red-hat-light-red) !important;
+  padding-bottom: 0.3rem !important;
+}
+
+/* Links */
+a {
+  color: var(--red-hat-red) !important;
+}
+
+a:hover {
+  color: var(--red-hat-dark-red) !important;
+}
+
+/* Code blocks */
+.codehilite {
+  background-color: var(--red-hat-dark-gray) !important;
+  color: var(--red-hat-white) !important;
+  border: 1px solid var(--red-hat-medium-gray) !important;
+  border-radius: 6px !important;
+}
+
+.codehilite .hll {
+  background-color: var(--red-hat-medium-gray) !important;
+}
+
+/* Inline code */
+.md-typeset code {
+  background-color: var(--red-hat-light-cream) !important;
+  color: var(--red-hat-dark-red) !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 3px !important;
+  border: 1px solid var(--red-hat-light-red) !important;
+}
+
+/* Admonitions */
+.md-typeset .admonition {
+  border-left: 4px solid var(--red-hat-red) !important;
+}
+
+.md-typeset .admonition.note {
+  border-left-color: var(--red-hat-red) !important;
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: #FFA500 !important;
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: #32CD32 !important;
+}
+
+.md-typeset .admonition.info {
+  border-left-color: #1E90FF !important;
+}
+
+/* Buttons */
+.md-button {
+  background-color: var(--red-hat-red) !important;
+  color: var(--red-hat-white) !important;
+  border: none !important;
+}
+
+.md-button:hover {
+  background-color: var(--red-hat-dark-red) !important;
+}
+
+.md-button--primary {
+  background-color: var(--red-hat-red) !important;
+  color: var(--red-hat-white) !important;
+}
+
+.md-button--primary:hover {
+  background-color: var(--red-hat-dark-red) !important;
+}
+
+/* Search */
+.md-search__form {
+  background-color: var(--red-hat-white) !important;
+  border: 1px solid var(--red-hat-light-gray) !important;
+}
+
+.md-search__input {
+  color: var(--red-hat-black) !important;
+}
+
+.md-search__input::placeholder {
+  color: var(--red-hat-medium-gray) !important;
+}
+
+/* Footer */
+.md-footer {
+  background-color: var(--red-hat-black) !important;
+  color: var(--red-hat-white) !important;
+}
+
+.md-footer__inner {
+  background-color: var(--red-hat-black) !important;
+}
+
+.md-footer__link {
+  color: var(--red-hat-white) !important;
+}
+
+.md-footer__link:hover {
+  color: var(--red-hat-light-red) !important;
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--red-hat-light-gray) !important;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--red-hat-red) !important;
+  color: var(--red-hat-white) !important;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: var(--red-hat-light-cream) !important;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: var(--red-hat-cream) !important;
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+  border-left: 4px solid var(--red-hat-red) !important;
+  background-color: var(--red-hat-light-cream) !important;
+  color: var(--red-hat-dark-gray) !important;
+}
+
+/* Tabs */
+.md-typeset .tabbed-labels > label {
+  color: var(--red-hat-medium-gray) !important;
+}
+
+.md-typeset .tabbed-labels > label.active {
+  color: var(--red-hat-red) !important;
+  border-bottom: 2px solid var(--red-hat-red) !important;
+}
+
+/* Dark mode adjustments */
+[data-md-color-scheme="slate"] {
+  --red-hat-bg: #1A1A1A;
+  --red-hat-cream: #2D2D2D;
+  --red-hat-light-cream: #3A3A3A;
+  --red-hat-white: #F0F0F0;
+}
+
+[data-md-color-scheme="slate"] .md-content {
+  background-color: var(--red-hat-bg) !important;
+}
+
+[data-md-color-scheme="slate"] .md-content__inner {
+  background-color: var(--red-hat-cream) !important;
+  color: var(--red-hat-white) !important;
+}
+
+/* Palette toggle */
+.md-typeset .md-content__icon {
+  color: var(--red-hat-red) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--red-hat-light-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--red-hat-red);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--red-hat-dark-red);
+}
+
+/* Focus styles */
+.md-nav__link:focus,
+.md-button:focus {
+  outline: 2px solid var(--red-hat-red) !important;
+  outline-offset: 2px !important;
+}
