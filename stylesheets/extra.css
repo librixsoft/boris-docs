@@ -28,14 +28,23 @@
   background-color: var(--red-hat-red) !important;
 }
 
-/* Header */
-.md-header {
+/* Header - More specific selectors */
+.md-header,
+.md-header__inner,
+.md-header[data-md-state="shadow"],
+.md-header[data-md-state="shadow"] .md-header__inner {
   background-color: #000000 !important;
   color: #FFFFFF !important;
 }
 
-.md-header__inner {
+/* Override all possible header variations */
+header.md-header,
+.md-header nav,
+.md-header .md-header__inner,
+.md-header .md-header__title,
+.md-header .md-header__topic {
   background-color: #000000 !important;
+  color: #FFFFFF !important;
 }
 
 .md-header__title {
