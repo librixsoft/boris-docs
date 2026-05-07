@@ -5,17 +5,17 @@ Documentation site built with MkDocs and GitHub Pages.
 ## 🚀 Quick Start
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Install dependencies (requires Java 21)
+./venv/bin/pip install -r requirements.txt
 
 # Local server
-mkdocs serve
+./venv/bin/mkdocs serve
 
 # Build for production
-mkdocs build
+./venv/bin/mkdocs build
 
 # Deploy to GitHub Pages
-mkdocs gh-deploy
+./venv/bin/mkdocs gh-deploy
 ```
 
 ## 📁 Structure
@@ -23,7 +23,7 @@ mkdocs gh-deploy
 ```
 boris-docs/
 ├── mkdocs.yml          # MkDocs configuration
-├── requirements.txt    # Python dependencies
+├── requirements.txt    # MkDocs dependencies (Java 21 required)
 ├── docs/               # Documentation content
 │   ├── index.md       # Main page
 │   ├── guide/         # User guides
