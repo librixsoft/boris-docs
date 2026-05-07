@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://librixsoft.github.io/boris-docs/documentation/interface/</loc>
+         <lastmod>2026-05-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://librixsoft.github.io/boris-docs/documentation/reference/</loc>
          <lastmod>2026-05-07</lastmod>
          <changefreq>daily</changefreq>
