@@ -40,6 +40,7 @@ nav:
     - Configuration: guide/configuration.md
     - Getting Started: guide/getting-started.md
   - Documentation:
+    - Interface: documentation/interface.md
     - API: documentation/api.md
     - Examples: documentation/examples.md
     - Reference: documentation/reference.md
