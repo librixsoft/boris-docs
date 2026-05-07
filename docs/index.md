@@ -21,14 +21,22 @@ Boris AI is an advanced artificial intelligence system designed to help with var
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- pip (Python package manager)
+- Java 21 or higher
 - Git
+- Web browser for documentation access
 
-### Basic Installation
+### Basic Setup
 
 ```bash
-pip install boris-ai
+# Clone the repository
+git clone https://github.com/librixsoft/boris-docs.git
+cd boris-docs
+
+# Install documentation dependencies
+./venv/bin/pip install -r requirements.txt
+
+# Start local documentation server
+./venv/bin/mkdocs serve
 ```
 
 ## 📚 Documentation
