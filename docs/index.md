@@ -1,18 +1,18 @@
 # Welcome to Boris AI Documentation
 
 !!! info "Project in Development"
-    This is a test page for Boris AI documentation using MkDocs and GitHub Pages.
+    This is the official documentation for Boris AI.
 
 ## 🚀 What is Boris AI?
 
-Boris AI is an advanced artificial intelligence system designed to help with various natural language processing and data analysis tasks.
+Boris AI is an AI agent designed to run models and LLMs locally. It communicates directly with the models via text messages without using HTTP. By relying on direct C++ libraries, it eliminates network overhead, allowing you to run heavier models with high agility and performance.
 
 ## 📋 Key Features
 
-- **Natural Language Processing**: Understanding and generation of text in multiple languages
-- **Data Analysis**: Advanced tools for analysis and visualization
-- **RESTful API**: Easy integration with existing applications
-- **Machine Learning**: Customizable models for different use cases
+- **Local Execution**: Run powerful LLMs entirely on your local machine with zero network latency.
+- **Direct C++ Integration**: Eliminates HTTP overhead by communicating directly with models using C++ libraries.
+- **High Performance**: Optimized architecture allows running heavier models smoothly.
+- **Privacy First**: Everything runs locally, ensuring complete data privacy.
 
 ## 🛠️ Quick Start
 
