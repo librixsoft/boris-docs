@@ -74,3 +74,9 @@ extra_css:
 # Extra JavaScript
 extra_javascript:
   - javascripts/extra.js
+
+# Footer
+copyright: Powered by librixsoft.com
+
+extra:
+  generator: false

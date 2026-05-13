@@ -22,22 +22,23 @@ Boris AI is an advanced artificial intelligence system designed to help with var
 ### Prerequisites
 
 - Java 21 or higher
-- Git
-- Web browser for documentation access
 
-### Basic Setup
+## 🧪 Tested Models
 
-```bash
-# Clone the repository
-git clone https://github.com/librixsoft/boris-docs.git
-cd boris-docs
+Boris AI ha sido probado y es compatible con los siguientes modelos:
 
-# Install documentation dependencies
-./venv/bin/pip install -r requirements.txt
-
-# Start local documentation server
-./venv/bin/mkdocs serve
-```
+| Model Name | Quantization | Format |
+|---|---|---|
+| DeepSeek Coder 1.3B Kexer | Q6_K | GGUF |
+| DeepSeek Coder V2 Lite Instruct | Q4_K_M | GGUF |
+| Gemma 4 E4b IT | Q4_K_M | GGUF |
+| GLM 4.6V Flash | Q4_K_M | GGUF |
+| GPT OSS 20B | Q4_K_M | GGUF |
+| Meta Llama 3.1 8B Instruct | Q4_K_M | GGUF |
+| Ministral 3 14B Reasoning | Q4_K_M | GGUF |
+| Mistral 7B Instruct v0.3 | Q4_K_M | GGUF |
+| Qwen2.5 Coder 1.5B Instruct | Q4_K_M | GGUF |
+| Qwen2.5 Coder 7B Instruct | Q4_K_M | GGUF |
 
 ## 📚 Documentation
 
@@ -46,16 +47,6 @@ cd boris-docs
     - [Configuration](guide/configuration.md) - Set up your environment
     - [API Reference](documentation/api.md) - Complete API documentation
     - [Examples](documentation/examples.md) - Practical use cases
-
-## 🤝 Contributing
-
-Interested in contributing to the project? Check our GitHub repository for contribution guidelines.
-
-## 📞 Support
-
-- **GitHub Issues**: Report bugs and request features
-- **Discussions**: Participate in community conversations
-- **Wiki**: Additional documentation and tutorials
 
 ---
 
