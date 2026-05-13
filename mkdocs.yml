@@ -34,8 +34,8 @@ theme:
 
 # Navigation
 nav:
-  - Inicio: index.md
-  - Guía de Uso: guide/installation.md
+  - Home: index.md
+  - Quick Guide: guide/installation.md
   
 # Extensions
 markdown_extensions:

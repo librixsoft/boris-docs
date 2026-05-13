@@ -25,7 +25,7 @@ Boris AI is an advanced artificial intelligence system designed to help with var
 
 ## 🧪 Tested Models
 
-Boris AI ha sido probado y es compatible con los siguientes modelos:
+Boris AI has been tested and is compatible with the following models:
 
 | Model Name | Quantization | Format |
 |---|---|---|
@@ -40,10 +40,10 @@ Boris AI ha sido probado y es compatible con los siguientes modelos:
 | Qwen2.5 Coder 1.5B Instruct | Q4_K_M | GGUF |
 | Qwen2.5 Coder 7B Instruct | Q4_K_M | GGUF |
 
-## 📚 Guía Rápida
+## 📚 Quick Guide
 
-!!! example "Primeros Pasos"
-    - [Guía de Uso](guide/installation.md) - Cómo ejecutar Boris AI
+!!! example "First Steps"
+    - [Quick Guide](guide/installation.md) - How to run Boris AI
 
 ---
 

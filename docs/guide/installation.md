@@ -1,33 +1,33 @@
-# Guía de Uso
+# Quick Guide
 
-Esta guía te ayudará a empezar a usar Boris AI. Boris AI es una aplicación sencilla que no requiere configuraciones técnicas ni instalaciones complejas.
+This guide will help you get started with Boris AI. Boris AI is a simple application that requires no technical configuration or complex installation.
 
-## Requisitos Previos
+## Prerequisites
 
-- **Java 21**: Necesitas tener instalado Java 21 o superior en tu computadora.
+- **Java 21**: You need to have Java 21 or higher installed on your computer.
 
-## Cómo Ejecutar Boris AI
+## How to Run Boris AI
 
-1. **Descarga** el archivo de la aplicación, el cual tiene un formato `.jar` (por ejemplo: `boris-ai-1.0.0.jar`).
-2. **Abre tu terminal** o consola de comandos (Símbolo del sistema o PowerShell en Windows, Terminal en macOS/Linux).
-3. Dirígete a la carpeta donde descargaste el archivo.
-4. **Ejecuta** el siguiente comando:
+1. **Download** the application file, which is in `.jar` format (e.g., `boris-ai-1.0.0.jar`).
+2. **Open your terminal** or command prompt (Command Prompt or PowerShell on Windows, Terminal on macOS/Linux).
+3. Navigate to the folder where you downloaded the file.
+4. **Run** the following command:
 
 ```bash
 java -jar boris-ai-1.0.0.jar
 ```
 
-*(Nota: Asegúrate de reemplazar `boris-ai-1.0.0.jar` por el nombre exacto del archivo que descargaste).*
+*(Note: Make sure to replace `boris-ai-1.0.0.jar` with the exact name of the file you downloaded).*
 
-Una vez ejecutado este comando, la interfaz gráfica de Boris AI se abrirá automáticamente y podrás empezar a interactuar con la aplicación.
+Once this command is executed, the Boris AI graphical interface will open automatically, and you can start interacting with the application.
 
-## Problemas Comunes
+## Common Issues
 
-### Error: "Java no se reconoce como un comando interno o externo"
+### Error: "Java is not recognized as an internal or external command"
 
-Esto significa que no tienes Java instalado, o no está configurado correctamente en tu sistema. Asegúrate de instalar **Java 21+**.
+This means you don't have Java installed, or it's not configured correctly on your system. Make sure you install **Java 21+**.
 
-Puedes verificar si tienes Java instalado escribiendo este comando en tu consola:
+You can check if you have Java installed by typing this command in your console:
 ```bash
 java -version
 ```
