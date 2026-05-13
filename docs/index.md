@@ -40,13 +40,10 @@ Boris AI ha sido probado y es compatible con los siguientes modelos:
 | Qwen2.5 Coder 1.5B Instruct | Q4_K_M | GGUF |
 | Qwen2.5 Coder 7B Instruct | Q4_K_M | GGUF |
 
-## 📚 Documentation
+## 📚 Guía Rápida
 
-!!! example "Explore Documentation"
-    - [Installation Guide](guide/installation.md) - How to install Boris AI
-    - [Configuration](guide/configuration.md) - Set up your environment
-    - [API Reference](documentation/api.md) - Complete API documentation
-    - [Examples](documentation/examples.md) - Practical use cases
+!!! example "Primeros Pasos"
+    - [Guía de Uso](guide/installation.md) - Cómo ejecutar Boris AI
 
 ---
 
