@@ -1,14 +1,14 @@
 # Boris AI Documentation
 
-Documentation site built with MkDocs and GitHub Pages.
+Official documentation for Boris AI — an autonomous terminal-based AI development assistant for local models.
 
-## 🚀 Quick Start
+## Development
 
 ```bash
-# Install dependencies (requires Java 21)
+# Install dependencies
 ./venv/bin/pip install -r requirements.txt
 
-# Local server
+# Local development server
 ./venv/bin/mkdocs serve
 
 # Build for production
@@ -18,21 +18,22 @@ Documentation site built with MkDocs and GitHub Pages.
 ./venv/bin/mkdocs gh-deploy
 ```
 
-## 📁 Structure
+## Documentation Structure
 
 ```
-boris-docs/
-├── mkdocs.yml          # MkDocs configuration
-├── requirements.txt    # MkDocs dependencies (Java 21 required)
-├── docs/               # Documentation content
-│   ├── index.md       # Main page
-│   ├── guide/         # User guides
-│   ├── documentation/ # Technical documentation
-│   └── about/         # Project information
-└── README.md          # This file
+docs/
+├── index.md                      # Project overview and architecture
+├── guide/
+│   ├── installation.md           # Build and run from source
+│   ├── configuration.md          # settings.json reference
+│   ├── tools.md                  # Agent tool reference (10 built-in tools)
+│   ├── ui.md                     # Terminal UI layout and controls
+│   ├── thinking.md               # Reasoning/thinking system
+│   └── commands.md               # In-app commands and shortcuts
+└── stylesheets/
+    └── extra.css
 ```
 
-## 🌐 GitHub Pages
+## Deployed Site
 
-The site is automatically deployed at:
 https://librixsoft.github.io/boris-docs

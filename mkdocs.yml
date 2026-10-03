@@ -1,6 +1,6 @@
 site_name: Boris AI Documentation
-site_description: Boris AI Documentation
-site_author: Your Name
+site_description: Boris AI — Autonomous Terminal AI Agent for Local LLMs
+site_author: LibrixSoft
 site_url: https://librixsoft.github.io/boris-docs
 
 # Repository
@@ -31,12 +31,20 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+  icon:
+    repo: fontawesome/brands/github
 
 # Navigation
 nav:
   - Home: index.md
-  - Quick Guide: guide/installation.md
-  
+  - Guides:
+    - Installation: guide/installation.md
+    - Configuration: guide/configuration.md
+    - Agent Tools: guide/tools.md
+    - Terminal UI: guide/ui.md
+    - Reasoning System: guide/thinking.md
+    - Commands: guide/commands.md
+
 # Extensions
 markdown_extensions:
   - admonition
@@ -44,7 +52,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
   - md_in_html
   - toc:
