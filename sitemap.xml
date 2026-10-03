@@ -2,12 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://librixsoft.github.io/boris-docs/</loc>
-         <lastmod>2026-05-13</lastmod>
+         <lastmod>2026-10-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://librixsoft.github.io/boris-docs/guide/commands/</loc>
+         <lastmod>2026-10-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://librixsoft.github.io/boris-docs/guide/configuration/</loc>
+         <lastmod>2026-10-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://librixsoft.github.io/boris-docs/guide/installation/</loc>
-         <lastmod>2026-05-13</lastmod>
+         <lastmod>2026-10-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://librixsoft.github.io/boris-docs/guide/thinking/</loc>
+         <lastmod>2026-10-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://librixsoft.github.io/boris-docs/guide/tools/</loc>
+         <lastmod>2026-10-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://librixsoft.github.io/boris-docs/guide/ui/</loc>
+         <lastmod>2026-10-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
