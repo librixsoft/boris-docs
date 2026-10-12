@@ -118,6 +118,7 @@ For Boris's reasoning system to work, your model must support:
 |---|---|---|
 | granite4.2:8b | Ollama | Native (`reasoning_effort`) |
 | qwen3.6-35b-64k | Ollama | Native (`reasoning_effort`) |
+| [Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled](https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled) | Ollama / llama.cpp / vLLM | Distilled Opus reasoning traces (`<think>` blocks); recommended for complex tasks |
 | deepseek-r1 | Ollama | Via content regex (`<think> ... </think>`) |
 | llama3.1:8b | Ollama | No think (standard responses) |
 
