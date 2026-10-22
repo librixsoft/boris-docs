@@ -83,13 +83,14 @@ Boris has been tested and verified with the following local models. All run via 
 | **Qwen 3.6:9B** | 9B | No | Lightweight alternative, fast responses |
 | **Gemma4:26B** | 26B | No | Strong general capability, good tool use |
 | **Gemma4:4B** | 4B | No | Fastest model, ideal for quick tasks and constrained hardware |
+| **Nemotron 3.5 Bolt 74B-A9B** | 74B (9B active) | No | Large MoE model, excellent quality, balanced inference |
 
 !!! tip "Model Selection Guide"
     - **Complex tasks & advanced reasoning**: [Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled](https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled) (distilled Claude Opus reasoning)
     - **Thinking/reasoning tasks**: Use Granite4.2:8B or Qwen 3.6:35B (both support `reasoning_effort`)
     - **Code generation**: Laguna-XS-2.1:30B or Qwen 3.6:35B
     - **Fast responses**: Gemma4:4B or Qwen 3.6:9B
-    - **Balanced quality/speed**: Nemotron-3.5-Lightning:30B or GPT-20B
+    - **Balanced quality/speed**: Nemotron-3.5-Lightning:30B, GPT-20B, or Nemotron 3.5 Bolt 74B-A9B
 
 ---
 
