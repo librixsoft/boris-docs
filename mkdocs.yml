@@ -44,6 +44,7 @@ nav:
     - Terminal UI: guide/ui.md
     - Reasoning System: guide/thinking.md
     - Commands: guide/commands.md
+    - llama.cpp Inference: guide/llama-cpp.md
 
 # Extensions
 markdown_extensions:

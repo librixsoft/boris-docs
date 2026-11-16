@@ -29,7 +29,8 @@ docs/
 │   ├── tools.md                  # Agent tool reference (10 built-in tools)
 │   ├── ui.md                     # Terminal UI layout and controls
 │   ├── thinking.md               # Reasoning/thinking system
-│   └── commands.md               # In-app commands and shortcuts
+│   ├── commands.md               # In-app commands and shortcuts
+│   └── llama-cpp.md              # llama.cpp local inference guide
 └── stylesheets/
     └── extra.css
 ```
